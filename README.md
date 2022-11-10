@@ -37,8 +37,15 @@ App Azure function python con visual studio code Graphql, conexión a posibles d
         }
     }
     ```
+## Comandos importantes para corer el proyecto en visual
+- Tener configurado el entorno para ejecutar Azure Function Python
+- func host start
+- .venv\Scripts\python -m pip install -r requirements.txt
+- .venv\Scripts\python -m pip install --upgrade pip
+- pip freeze > requirements.txt
+- 
 
-## 7. Referencias
+## Referencias
 
 [How To Create Azure Functions In Python, Create python Azure Function in Visual Studio Code](https://www.youtube.com/watch?v=FCmLLc9U6IY) <br />
 [GraphQL: la alternativa flexible a REST para programar API](https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/graphql/) <br />
