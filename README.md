@@ -15,6 +15,25 @@ TODO: Describe and show how to build your code and run the tests.
 TODO: Explain how other users and developers can contribute to make your code better. 
 
 If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
+- [Python ]
 - [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+
+#Info Spanish
+App Azure function python con visual studio code Graphql, conexión a posibles datos en DataBricks para Procesos en tecnología Disruptiva DATAMESH
+
+# Crear archivo local.settings.json a nivel de host.json, este es privativo global de cada proyecto para poder adicionar keys, CORS y demas elementos 
+
+
+    ```json
+    {
+        "IsEncrypted": false,
+        "Values": {
+            "AzureWebJobsStorage": "",
+            "FUNCTIONS_WORKER_RUNTIME": "python",
+            "AccessTokenDatabricks": "TOKENDEDATABRI"
+        },
+        "Host": {
+            "CORS": "*"
+        }
+    }
+    ```
